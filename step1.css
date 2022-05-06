@@ -41,6 +41,26 @@ ul{
     }
  }
 
+.pro-img img{
+    max-width: 120px;
+}
+.step-parr p{
+    font-size: 20px;
+}
+th,tr,td{
+    border: none;
+}
+.nid-img{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.front-img img,
+.back-img img{
+    max-width: 350px;
+    max-height: 220px;
+}
+
 
 
 
