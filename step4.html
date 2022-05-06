@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--font-awesome link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="step1.css">
+
+    <title>step4</title>
+  </head>
+  <body>
+    <header>
+        <div class="container header-box">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h3>লো‌নের জন‌্য আ‌বেদন</h3>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section id="step">
+        <div class="container step-head py-5">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="step-card">
+                        <div class="step-body">
+                            <h4>ধাপ-৪: আ‌বেদন কারীর তথ‌্য</h4>
+                        </div>
+                        <form action="">
+                          <div class="mb-3">
+                            <label for="formGroupExampleInput" class="form-label">পেশা</label>
+                                <select class="form-select me-3" aria-label="Default select   example" required>
+                                    <option selected>সিলেক্ট করুন </option>
+                                    <option value="GOVERNMENT_SERVICE">সরকারী চাকরি</option>
+                                    <option value="PRIVATE_SERVICE">বেসরকারী চাকরি</option>
+                                    <option value="BUSINESS">ব্যবসা</option>
+                                    <option value="SELF_EMPLOYMENT">আত্মকর্মসংস্থান</option>
+                                    <option value="STUDENT">শিক্ষার্থী</option>
+                                    <option value="HOUSEWIFE">গৃহিণী</option>
+                                    <option value="RETIRED">অবসরপ্রাপ্ত</option>
+                                </select>
+                                
+                           
+                          </div>
+                          <div class="mb-3">
+                            <label for="formGroupExampleInput" class="form-label">মাসিক আয়ের পরিমান</label>
+                                <select class="form-select me-3" aria-label="Default select   example" required>
+                                    <option selected>সিলেক্ট করুন </option>
+                                    <option value="BELOW_ONE_THOUSAND">১,০০০ টাকার নিম্নে</option>
+                                    <option value="ONE_THOUSAND_TO_FIVE_THOUSAND">১,০০১ টাকা থেকে ৫,০০০ টাকা</option>
+                                    <option value="FIVE_THOUSAND_TO_TEN_THOUSAND">৫,০০১ টাকা থেকে ১০,০০০ টাকা</option>
+                                    <option value="TEN_THOUSAND_TO_TWENTY_THOUSAND">১০,০০১ টাকা থেকে ২০,০০০ টাকা</option>
+                                    <option value="TWENTY_THOUSAND_TO_FIFTY_THOUSAND">২০,০০১ টাকা থেকে ৫০,০০০ টাকা</option>
+                                    <option value="FIFTY_THOUSAND_TO_ONE_HUNDRED_THOUSAND">৫০,০০১ টাকা থেকে ১০০,০০০ টাকা</option>
+                                    <option value="ONE_HUNDRED_THOUSAND_TO_TWO_HUNDRED_THOUSAND">১০০,০০১ টাকা থেকে ২০০,০০০ টাকা</option>
+                                    <option value="ABOVE_TWO_HUNDRED_THOUSAND">২০০,০০০ টাকার উর্ধ্বে</option>
+                                </select>
+                                
+                           
+                          </div>
+                          <div class="mb-3">
+                            <label for="formGroupExampleInput" class="form-label">কত টাকা ঋণ প্রয়োজন</label>
+                            <input type="number" class="form-control" id="formGroupExampleInput" placeholder="টাকার পরিমাণ " required aria-invalid="true">
+                          </div>
+                          <div class="mb-3">
+                            <label for="formGroupExampleInput" class="form-label">কত বছর এর জন‌্য প্রয়োজন</label>
+                            <input type="number" class="form-control" id="formGroupExampleInput" placeholder="বছর " required aria-invalid="true">
+                          </div>
+                          <div class="mb-3">
+                            <label for="formGroupExampleInput" class="form-label">
+                              ‌কি‌স্তি ধরণ</label><br>
+                            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                              <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                              <label class="btn btn-outline-danger me-1 px-md-5" for="btnradio1">সাপ্তা‌হিক</label>
+                            
+                              <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                              <label class="btn btn-outline-danger me-1 px-md-5" for="btnradio2">মা‌সিক</label>
+                            
+                              <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                              <label class="btn btn-outline-danger px-md-5" for="btnradio3">বাৎস‌রিক </label>
+                            </div>
+                          </div>
+                          
+                          <button type="submit" class="btn btn-primary ">Submit</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
