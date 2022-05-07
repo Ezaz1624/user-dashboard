@@ -62,7 +62,10 @@ th,tr,td{
     max-width: 350px;
     max-height: 220px;
 }
-
+.cash{
+    display: flex;
+    justify-content:center;
+}
 
 
 
