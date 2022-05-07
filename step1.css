@@ -33,6 +33,7 @@ ul{
     width: 60%;
     background:rgb(247, 247, 247); 
     padding: 20px 30px;
+    border-radius: 10px;
 }
 @media (max-width: 991.98px) {
 
