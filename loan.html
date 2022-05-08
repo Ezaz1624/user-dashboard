@@ -36,7 +36,7 @@
                 <div class="col-12 d-flex justify-content-center">
                     <div class="step-card text-center">
                       <div class="balance mb-3">
-                        <h3 class="btn-outline-danger btn-lg btn">ব্যালেন্স 100$</h3>
+                        <h3 class="btn-outline-danger btn-lg btn">লোন ব্যালেন্স 1000$</h3>
                       </div>
                       <div class="popup">
                         <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
@@ -65,9 +65,9 @@
                               <div class="modal-body">
                                 <h5 class="text-danger">ব‌্যাং‌ক একাউন্ট</h5>
                                 <button class="btn btn-outline-danger mb-3" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal" data-bs-dismiss="modal"><img src="img/visa.png" alt=""></button>
-                                <button class="btn btn-outline-danger mb-3" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal" data-bs-dismiss="modal"><img src="img/download.png" alt=""></button>
+                                
                         
-                                <button class="btn btn-outline-danger px-3 py-4" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal" data-bs-dismiss="modal"><img src="img/dbbl.png" alt=""></button>
+                                
                                 <h5 class="text-danger">মোবাইল ব‌্যাং‌কিং</h5>
                                 <button class="btn btn-outline-danger mb-3" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal" data-bs-dismiss="modal"><img src="img/logo.png" alt=""></button>
                                 <button class="btn btn-outline-danger mb-3" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal" data-bs-dismiss="modal"><img src="img/mlogo.png" alt=""></button>
@@ -129,42 +129,45 @@
                                 <h5 class="text-success">সঞ্চয় একাউ‌ন্টে অনু‌মো‌দিত লোন এর ৫% টাকা জমা ক‌রে উ‌ত্তোলন করুন </h5>
                               </div>
                               <div class="modal-footer ">
-                                <a href="index.html"><button class="btn btn-primary" > হোম পেজ  </button></a>
+                                <a href="loan.html"><button class="btn btn-primary" > হোম পেজ  </button></a>
                               </div>
                             </div>
                           </div>
                         </div>
                         
-                        <a class="btn btn-success" data-bs-toggle="modal" href="#exampleModalToggle" role="button"><i class="fa fa-money fa-2x" aria-hidden="true"></i><br> লোনের পরিমান </a>  
+                        <a class="btn btn-success" data-bs-toggle="modal" href="#exampleModalToggle" role="button"><i class="fa fa-money fa-2x" aria-hidden="true"></i><br> লোনের উ‌ত্তোলন  </a>  
                       </div>
-                      <div class="histry mt-5">
-                        <h3 class="text-danger">Last Transaction</h3>
-                        <table class="table table-hover">
-                          
-                          <thead>
-                            <tr>
-                              <th scope="col">Date</th>
-                              <th scope="col">Amount</th>
-                              <th scope="col">Type</th>
-                              <th scope="col">Number</th>
-                              <th scope="col">Status</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td>11:10 am 05/04/2022</td>
-                              <td>10000৳</td>
-                              <td>By Nagad</td>
-                              <td>
-                                01234567890</td>
-                              <td>Success</td>
-                            </tr>
-                            
-                            
-                            
-                          </tbody>
-                        </table>
+                      <h3 class="text-danger mt-5">Last Transaction</h3>
+                      <div class="trans mt-5 mb-3">
+                        <div class="row fw-bold">
+                          <div class="col-3 col-sm-3 ">Date</div>
+                          <div class="col-2 col-sm-2 text-center">Amount</div>
+                          <div class="col-3 col-sm-2 text-center d-none d-sm-block">Type</div>
+                          <div class="col-4 col-sm-3 text-center">Number</div>
+                          <div class="col-3 col-sm-2 ">Status</div>
+                        </div>
                       </div>
+                      <div class="trans bg-white mb-3 shadow-lg p-3 rounded">
+                        <div class="row fst-normal">
+                          <div class="col-3 col-sm-3">11:10 am 05/04/2022</div>
+                          <div class="col-2 col-sm-2 text-center">10000৳</div>
+                          <div class="col-3 col-sm-2 text-center d-none d-sm-block">By Nagad</div>
+                          <div class="col-4 col-sm-3 text-center">01234567890</div>
+                          <div class="col-3 col-sm-2 text-end text-success">Success</div>
+                        </div>
+                      </div>
+                      <div class="trans bg-white mb-3 shadow-lg p-3 rounded">
+                        <div class="row fst-normal">
+                          <div class="col-3 col-sm-3">11:10 am 05/04/2022</div>
+                          <div class="col-2 col-sm-2 text-center">10000৳</div>
+                          <div class="col-3 col-sm-2 text-center d-none d-sm-block">By Bkash</div>
+                          <div class="col-4 col-sm-3 text-center">01234567890</div>
+                          <div class="col-3 col-sm-2 text-end text-success">Success</div>
+                        </div>
+                      </div>
+
+
+                    
 
                     </div>
                 </div>
