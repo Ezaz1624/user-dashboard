@@ -66,6 +66,9 @@ th,tr,td{
     display: flex;
     justify-content:center;
 }
+.balance h3{
+    font-size: 32px;
+}
 
 
 
