@@ -69,6 +69,12 @@ th,tr,td{
 .balance h3{
     font-size: 22px;
 }
+.pay-img{
+    border-bottom: 3px solid #F96537;
+}
+.nagad-bg{
+    background-image: linear-gradient(to right, #e51017, #e83a11, #eb520d, #ed670c, #ee7910, #ee7910, #ee7910, #ee7910, #ed670c, #eb520d, #e83a11, #e51017);
+}
 
 
 
