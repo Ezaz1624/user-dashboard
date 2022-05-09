@@ -9,7 +9,9 @@
 }
 body{
     font-family: 'kalpurush';
+    
 }
+
 p{
     margin: 0%;
 }
@@ -58,13 +60,13 @@ ul{
     justify-content: flex-end;
 }
 .balance-box{
-    width: 120px;
-    height: 120px;
-    border-radius: 100%;
+    padding: 20px 30px;
+    border-radius: 10px;
     background:#fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 22px;
 }
 .price{
     font-weight: bold;
@@ -146,7 +148,21 @@ ul{
 }
  
 
-
+/* log out */
+.log-out a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 10px;
+    transition: all .5s ease;
+}
+.log-out a:hover{
+    background: #fff;
+    color: #e51017;
+    transition: all .5s ease;
+}
+  
 
 
 
