@@ -70,10 +70,19 @@ th,tr,td{
     font-size: 22px;
 }
 .pay-img{
-    border-bottom: 3px solid #F96537;
+    border-bottom: 3px solid #E20F6B;
+}
+.bkash-bg{
+    background: #E20F6B;
 }
 .nagad-bg{
     background-image: linear-gradient(to right, #e51017, #e83a11, #eb520d, #ed670c, #ee7910, #ee7910, #ee7910, #ee7910, #ed670c, #eb520d, #e83a11, #e51017);
+}
+.roket{
+    background: #8A288F;
+}
+.roket-img{
+    border-bottom: 3px solid #8A288F
 }
 
 
