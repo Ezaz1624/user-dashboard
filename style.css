@@ -126,32 +126,23 @@ ul{
     display: inline-block;
 }
 .footer img{
-    width: 50px;
+    width: 60px;
 }
 .social{
     margin-top: 30px;
-    text-align: center;
+    
 }
-.social ul li{
-    display: inline-block;
-}
-.social ul li a:hover {
-    color: rgba(252, 252, 252, 0.642) !important;
-    transition: all .2s ease;
-}
-.social ul li a:hover i {
-    transition: all .2s ease;
-}
-.social ul li a{
+
+.social a{
     color: #fff !important;
     font-size: 20px;
-    display: inline-block;
-    text-align: center;
-    margin-right: 24px;
+    
+    
+    
 }
-.social ul li a i{
-    transition: all .4s ease;
-    display: inline-block;
+
+.fa-phone{
+    transform: rotate(25deg);
 }
  
 
