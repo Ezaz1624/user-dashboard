@@ -99,7 +99,7 @@ th,tr,td{
    display: inline-block;
    padding-left: 20px; 
 }
-.accordion-body table{
+.accordion-body {
   background: #E7F1FF;
 }
 .accordion-body tr{
