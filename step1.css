@@ -107,6 +107,11 @@ th,tr,td{
   border: bottom 1px solid #fff;
 }
 
+/* footer */
+.footer img{
+    width: 60px;
+}
+
 
 
 
