@@ -111,6 +111,15 @@ th,tr,td{
 .footer img{
     width: 60px;
 }
+.trans{
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+}
+.pro-img{
+    border: 4px solid #e51017;
+    display: inline-block;
+    border-radius: 4px;
+}
 
 
 
