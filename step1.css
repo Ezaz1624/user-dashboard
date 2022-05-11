@@ -7,6 +7,7 @@
     font-family: 'Kalpurush';
     src: url(fonts/Kalpurush.ttf);
 }
+
 body{
     font-family: 'kalpurush';
 }
@@ -39,6 +40,13 @@ ul{
 
     .step-card{
         width: 100%;
+         
+    }
+ }
+ @media (max-width: 575.98px) {
+
+    .step-card{
+        padding: 20px 4px;
          
     }
  }
